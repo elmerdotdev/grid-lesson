@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-template-rows: 150px 500px 100px;
+  grid-template-areas: "header header" "sidebar content" "footer footer";
+}
+.container header {
+  background-color: red;
+  grid-area: header;
+}
+.container aside {
+  background-color: orange;
+  grid-area: sidebar;
+}
+.container main {
+  background-color: blue;
+  grid-area: content;
+}
+.container footer {
+  background-color: green;
+  grid-area: footer;
+}
+
+/*# sourceMappingURL=style.css.map */
